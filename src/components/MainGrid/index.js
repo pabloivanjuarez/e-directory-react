@@ -4,7 +4,7 @@ import EmpRows from "../EmpRows";
 import "./style.css";
 import API from "../../utils/API";
 
-class Table extends React.Component {
+class MainGrid extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -72,8 +72,8 @@ class Table extends React.Component {
     return (
       <div className="container">
         <SearchBar handleSearch={this.state.handleSearch} />
-        <div className="table">
-          <table>
+        <div className="mainGrid">
+          <mainGrid>
             <thead>
               <tr>
                 <th>Image</th>
@@ -84,11 +84,11 @@ class Table extends React.Component {
               </tr>
             </thead>
             <EmpRows employees={this.state.searchedEmployees} />
-          </table>
+          </mainGrid>
         </div>
       </div>
     )
   }
 };
 
-export default Table;
+export default MainGrid;

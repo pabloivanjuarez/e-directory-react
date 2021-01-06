@@ -1,15 +1,15 @@
 import React from 'react';
 import Header from "./components/Header";
-import Table from "./components/Table";
+import MainGrid from "./components/MainGrid";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-      <div>
-        <Header />
-          <Table />
-        <Footer />
-      </div>
+    <div>
+      <Header />
+      <MainGrid />
+      <Footer />
+    </div>
   );
 };
 

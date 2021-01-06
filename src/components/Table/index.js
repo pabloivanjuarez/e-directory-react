@@ -1,6 +1,6 @@
 import React from "react";
-import SearchBar from "../SearchBar/index.js";
-import EmpRows from "../EmpRows/index.js";
+import SearchBar from "../SearchBar/index";
+import EmpRows from "../EmpRows/index";
 import "./style.css";
 import API from "../../utils/API";
 

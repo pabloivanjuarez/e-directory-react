@@ -1,5 +1,5 @@
 import React from "react";
-import SearchBar from "../SearchBar";
+import SearchBar from "../SearchBar/index.js";
 import EmpRows from "../EmpRows";
 import "./style.css";
 import API from "../../utils/API";

@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
     return (
         <div className="footer">
-            Copyright 2020
+            Copyright Pablo 2020
         </div>
     );
 };
